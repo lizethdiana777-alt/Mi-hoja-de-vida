@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Diana Lizeth González</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #edf1f5;
+            color: #293747;
+            line-height: 1.7;
+            padding: 30px 15px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+        }
+
+        header {
+            background: linear-gradient(135deg, #23354b, #42617c);
+            color: white;
+            padding: 50px 35px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #d9e5ef;
+            font-size: 17px;
+        }
+
+        .location {
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        main {
+            padding: 35px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #31536f;
+            font-size: 19px;
+            border-bottom: 2px solid #d8e3ec;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 5px;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+
+        li::before {
+            content: "◆";
+            color: #527b9b;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+
+        .academic {
+            background: #f2f6f9;
+            padding: 18px;
+            border-radius: 10px;
+            border-left: 4px solid #42617c;
+        }
+
+        footer {
+            background: #23354b;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                padding: 35px 15px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            main {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>DIANA LIZETH GONZÁLEZ</h1>
+            <p>Perfil estudiantil</p>
+            <div class="location">
+                Guática, Risaralda - Colombia
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy una persona responsable, comprometida y con
+                    disposición para aprender. Me caracterizo por mi
+                    interés en adquirir nuevos conocimientos, trabajar
+                    en equipo y asumir nuevos retos que contribuyan a
+                    mi crecimiento personal y académico.
+                </p>
+            </section>
+
+            <section>
+                <h2>Formación académica</h2>
+                <div class="academic">
+                    <strong>Educación secundaria</strong>
+                    <p>Estudiante de grado 11.</p>
+                    <p>Institución Educativa Oficial Instituto Guática.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Responsabilidad.</li>
+                    <li>Trabajo en equipo.</li>
+                    <li>Comunicación.</li>
+                    <li>Organización.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Intereses</h2>
+                <ul>
+                    <li>Contabilidad.</li>
+                    <li>Tecnología.</li>
+                    <li>Aprendizaje continuo.</li>
+                    <li>Participación juvenil.</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer>
+            Hoja de vida digital | Diana Lizeth González
+        </footer>
+
+    </div>
+
+</body>
+</html>
