@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Yudicel Mejía San Martín</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaf0f6;
+            color: #333;
+            line-height: 1.7;
+            padding: 25px 15px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        header {
+            background: linear-gradient(135deg, #24476b, #5485ad);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #24476b;
+            border-bottom: 2px solid #9bbbd8;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            font-size: 21px;
+        }
+
+        p {
+            margin-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .dato {
+            background: #f1f6fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #24476b;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 500px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Yudicel Mejía San Martín</h1>
+            <p>Hoja de vida</p>
+            <p>Estudiante de grado 11</p>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Información personal</h2>
+                <div class="dato">
+                    <p><strong>Nombre:</strong> Yudicel Mejía San Martín</p>
+                    <p><strong>Municipio:</strong> Guática, Risaralda</p>
+                    <p><strong>Estudios:</strong> Estudiante de grado 11</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Perfil personal</h2>
+                <p>
+                    Soy una persona responsable, comprometida y con
+                    disposición para aprender. Me caracterizo por mi
+                    interés en adquirir nuevos conocimientos, trabajar
+                    en equipo y participar en actividades que contribuyan
+                    a mi crecimiento personal y académico.
+                </p>
+            </section>
+
+            <section>
+                <h2>Formación académica</h2>
+                <p><strong>Educación media:</strong> Grado 11 en curso.</p>
+            </section>
+
+            <section>
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Responsabilidad.</li>
+                    <li>Trabajo en equipo.</li>
+                    <li>Buena comunicación.</li>
+                    <li>Organización.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Intereses</h2>
+                <ul>
+                    <li>Veterinaria y cuidado de los animales.</li>
+                    <li>Aprendizaje y adquisición de nuevos conocimientos.</li>
+                    <li>Participación juvenil.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Objetivo personal</h2>
+                <p>
+                    Continuar mi formación académica, fortalecer mis
+                    habilidades y prepararme para mi futuro profesional,
+                    especialmente en el área de la veterinaria.
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Yudicel Mejía San Martín</p>
+            <p>Guática, Risaralda, Colombia</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
